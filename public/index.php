@@ -15,7 +15,7 @@ $uri = explode( '/', $uri );
 // everything else results in a 404 Not Found
 if ($uri[1] !== 'person') {
     header("HTTP/1.1 404 Not Found");
-    exit();
+    exit(); 
 }
 
 // the user id is, of course, optional and must be a number:
